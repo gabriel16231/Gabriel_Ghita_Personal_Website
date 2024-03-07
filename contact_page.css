@@ -1,0 +1,64 @@
+h1{
+  text-align: center;
+  font-size: 5vw;
+  color: #335369;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.grid-container {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 5%;
+    padding: 5%;
+  }
+  
+  
+  .grid-container > div {
+    font-size: 2vw;
+    background-color: #c8e6e3;
+    text-align: center;
+    padding: 20px 0;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 10px;
+    
+  }
+  .item1
+  {
+    
+    grid-row-start:1;
+    grid-row-end:3;
+  }
+
+  .icon img {
+    height: 5vw;
+    width: 5vw;
+    margin-right: 5%;
+  }
+
+  label
+  {
+    border-style: solid;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #335369;
+    color:azure;
+    padding: 1%;
+  }
+
+  input , textarea
+  {
+    margin:5%;
+    border-radius: 10px;
+    border-color:#335369;
+    border-width: 5px;
+    background-color: lightblue;
+    font-weight: bold;
+    font-size: 2vw;
+  }
+
+  
+  
+
+
+  

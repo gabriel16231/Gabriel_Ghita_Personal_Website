@@ -1,0 +1,13 @@
+.background
+{
+    background-image: url("Poze/background3.jpg");
+}
+.layout
+{
+    display: block;
+    background-color: azure;
+    border-radius: 10px;
+    margin-right:5vw;
+    margin-left: 5vw;
+    height:max-content;
+}
