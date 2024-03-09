@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(207, 246, 246);
+    font-size: 2vw;
+    background-image: url('dog_background_4.jpg');
 }
 h1,h2{
     color: rgb(65, 97, 167);
@@ -8,25 +9,31 @@ h1,h2{
 }
 button
 {
+    font-size: 2vw;
+    color: #735235;
     display: block;
-    background-color: rgb(117, 117, 189);
-    margin: 2%;
+    background-color: #CABA9C;
+    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
-    padding: 2%;
+    padding: 1%;
 }
 
 button:hover
 {
     color:white;
-    background-color: rgb(40, 40, 63);
+    color: #432715;
     
 }
 
 button, button:hover{
     border-style: none;
-    border-top-right-radius: 25%;
-    border-bottom-left-radius: 25%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-top: none;
+    border-left:none;
+    border-color:  #8A6240;
+    float: left;;
 }
 
 canvas
@@ -47,11 +54,15 @@ canvas
 .sect_left
 {
     display: block;
-    background-color: rgb(193, 223, 144);
+    background-color: #4C6444;
     float: left;
     border-style: none;
-    border-top-right-radius: 50%;
-    border-bottom-left-radius: 50%;
+    
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-style:dotted;
+    border-width: 4px;
+    border-color: #102820;
     padding: 5%;
     margin:5%;
     
@@ -59,12 +70,37 @@ canvas
 .sect_right
 {
     display: block;
-    background-color: rgb(125, 144, 94);
+    background-color:#102820;
     float: right;
-    border-style: none;
-    border-top-left-radius: 50%;
-    border-bottom-right-radius: 50%;
     padding: 5%; 
     margin:5%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-style:dotted;
+    border-width: 4px;
+    border-color: #4C6444;
 }
+
+.btn_menu{
+    padding:0.5%;
+        border-style: solid;
+        border-width: 5px;
+        border-radius: 10px;
+        border-color:#735235;
+    float:right;
+    width: 98%;
+}
+.btn_menu ul
+{
+    margin: auto;
+    list-style-type: none;
+    
+    
+}
+.btn_menu li
+{
+    float:left
+}
+
+
 
